@@ -10,6 +10,7 @@ class Frp < Formula
 
   # depends_on "cmake" => :build
   depends_on "go" => :build
+  depends_on "wasmedge"
 
 
   def install
